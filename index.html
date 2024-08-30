@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <section class="container">
+      <header>Registro</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Nome completo <span class="red">*</span></label>
+          <input type="text" placeholder="Nome completo" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email <span class="red">*</span></label>
+          <input type="text" placeholder="Email" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Date de nascimento <span class="red">*</span></label>
+            <input type="text" placeholder="dd/mm/aa" required />
+          </div>
+
+          <div class="input-box">
+            <label>Número de telefone</label>
+            <input type="text" placeholder="(+##) #####-####" />
+          </div>
+        </div>
+
+        <div class="gender-box">
+          <h3>Género</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" class="check" />
+              <label for="check-male">Masculino</label>
+            </div>
+
+            <div class="gender">
+              <input
+                type="radio"
+                id="check-female"
+                name="gender"
+                class="check"
+              />
+              <label for="check-female">Feminino</label>
+            </div>
+
+            <div class="gender">
+              <input
+                type="radio"
+                id="check-other"
+                name="gender"
+                class="check"
+                checked
+              />
+              <label for="check-other">Prefiro não dizer</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-box address">
+          <label>Endereço <span class="red">*</span></label>
+          <input type="text" placeholder="Rua" required />
+
+          <div class="column">
+            <input type="text" placeholder="Cidade" required />
+            <div class="select-box">
+              <select>
+                <option hidden>Estado</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Distrito Federal</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piuauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+              </select>
+            </div>
+          </div>
+
+          <input type="text" placeholder="Região" required />
+          <input type="text" placeholder="Código Postal" required />
+        </div>
+
+        <button>Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
